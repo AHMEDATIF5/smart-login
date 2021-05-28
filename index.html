@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>sign in</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <article class="login">
+    <h1>Smart Login System</h1>
+    <input type="text" id="userEmail" placeholder="Enter Your Email" class="form-control">
+    <input type="password" id="userPassword" placeholder="Enter Your password" class="form-control">
+    <div id="loginError" class="alert alert-danger d-none">incorrect email or password!</div>
+    <button onclick="login()" id="loginBtn" class="btn btn-outline-primary form-control mt-2">Login</button>
+    <h4>Don't have an account? <a href="signUp.html">Sign Up</a></h4>
+  </article>
+
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

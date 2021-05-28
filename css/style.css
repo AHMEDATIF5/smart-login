@@ -1,0 +1,52 @@
+body
+{
+  background-color: #222831;
+}
+.login
+{
+  width: 65%;
+  margin: auto;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #222831;
+}
+.login h1
+{
+  color: #d65a31;
+  margin-bottom: 30px;
+}
+.login input
+{
+  background-color: transparent;
+  margin-bottom: 20px;
+  color: #eee;
+}
+.login input:focus
+{
+  background-color: transparent;
+  color: #eee;
+}
+.login h4,.login h5
+{
+  color:#eee;
+  margin-top: 20px;
+}
+
+nav
+{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  color: #eee;
+  padding: 20px;
+}
+nav .wrapper
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.invalid-feedback
+{
+  text-align: left;
+}

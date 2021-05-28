@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>sign up</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <article class="login">
+    <h1>Smart Login System</h1>
+    <div id="nameExist" class="alert alert-danger d-none">Name is already exist!</div>
+    <div id="nameInvalid" class="invalid-feedback">user name should start with capital letter and contain 3 to 8 character</div>
+    <input type="text" id="userName" placeholder="Enter Your Name" class="form-control">
+    <div id="emailInvalid" class="invalid-feedback">invalid Email!</div>
+    <div id="emailExist" class="alert alert-danger d-none">email is already exist!</div>
+    <input type="text" id="userEmail" placeholder="Enter Your Email" class="form-control">
+    <div id="passInvalid" class="invalid-feedback">password should start with capital letter and min 8 character!</div>
+    <input type="password" id="userPassword" placeholder="Enter Your password" class="form-control">
+    <a class="btn btn-outline-primary form-control mt-2" id="signUp">Sgin Up</a>
+    <h5>you have an account? <a href="index.html">Sign in</a></h5>
+  </article>
+
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
